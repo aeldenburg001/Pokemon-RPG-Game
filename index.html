@@ -13,15 +13,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
 </head>
+<!--Navbar with links to my Portfolio and Contact pages-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-item nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item nav-link" href="Rules.html">How To Play</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
 <body>
     <!-- the select player character screen -->
     <div id="firstScreen" class="container-fluid animated zoomIn bounceOut">
-        <img class="img-fluid" src="https://fontmeme.com/images/Pokemon-Logo.jpg" alt="pokemon logo"/>
-        <br>
-        <br>
         <h1>Select Your Pokemon:</h1>
         <br>
         <div id="game" class="ctr container card-deck">
@@ -67,7 +80,7 @@
         <div id="globalMsg" class="animated fadeInUp">
             <p class="shadow">
                 CONGRATULATIONS!
-                <br> You win.
+                <br> You win
             </p>
         </div>
     </div>
@@ -81,7 +94,7 @@
     <script src="assets/javascript/game.js"></script>
 
     <footer>
-        
+
     </footer>
 </body>
 

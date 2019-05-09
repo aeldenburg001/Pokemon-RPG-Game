@@ -1,7 +1,7 @@
 body {
-    color: white !important;
-    background-color: black;
-    background-image: url("https://images.wallpaperscraft.com/image/minimalism_geometric_landscape_124072_3840x2400.jpg");
+    color: #1e4d99 !important;
+    background: black;
+    background-image: url("https://images.pexels.com/photos/1587/blurred-background.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
     text-align: center;
     padding-top: 5%;
     color: black;
-    background-image: url("https://images.wallpaperscraft.com/image/minimalism_geometric_landscape_124072_3840x2400.jpg");
+    background-image: url("https://images.pexels.com/photos/1587/blurred-background.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 
 .ctr {
@@ -29,14 +29,15 @@ body {
 }
 
 .bg-trans {
-    background: black !important;
+    background: url(https://images.pexels.com/photos/129105/pexels-photo-129105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     width: 100%;
     height: 100vh;
-    margin: 0 auto;
+    margin: 10px auto;
+    padding: 5px;
 }
 
 .paddingTop {
-    padding-top: 1%;
+    padding-top: 5%;
 }
 
 .btn {
@@ -44,24 +45,15 @@ body {
 }
 
 .animated {
-    animation-duration: 1.5s;
+    animation-duration: 1s;
 }
 
 #msg {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #globalMsg {
     padding-top: 20%;
     text-align: center;
     font-size: 3em;
-}
-
-footer {
-    position: absolute;
-    font-size: 0.8em;
-    bottom: 0;
-    left: 0;
-    color: white;
-    background-color: black;
 }
